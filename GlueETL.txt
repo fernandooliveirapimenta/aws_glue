@@ -1,0 +1,35 @@
+Transforma os dados
+Limpa os dados
+Enriquece os data(antes de fazer qualquer analise)
+Codigos gerados autimaticos podem ser modificados
+Posso prover meu proprio Spark ou PySpark scritp
+Alvos podem ser S3, JDBC (RDS, Redshift), ou no Glue Catalogo de dados
+Totalmente gerenciado, pague somente pelos recursos consumidos
+Jobs rodam em um ambiente serverless da plataforma spark
+Glue scheduler para jobs agendados
+Glue trigger para automatizar jobs baseados em eventos
+
+Transformacoes:
+DropFields, DropNullFieds
+Filter = funcao especifica para filtrar dados
+Join = para enriquecer os dados
+Map = adicionar campos, deletar campos, 
+
+Machine learning transformacoes:
+
+Formatos: CSV, JSON, Avro, Parquet, ORC, XML
+Apache spark transformacoes (ex K-Means)
+
+
+Rodando jobs glue:
+baseados em schedules(agendados) (cros style)
+Job bookmarks
+persiste o estado de um job 
+previne reprocessar um job antigo
+permite vc processar novos dados somente quando rodar novamente um schedule
+trabalha com s3 com varios formatos
+trablha com banco de dados relacionais via JDBC
+
+Cludwatch eventos:
+avisa se deu sucesso ou falha,
+toda um ec2 para enviar eventos para o kinesis 

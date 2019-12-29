@@ -1,0 +1,6 @@
+Dados em streaming ou tempo real pois glue é orientado a batch minimo de 5 minutos de intervalo
+Multiplos ETL engines
+NoSQL databases
+OU SEJA SÓ USAR PARA BANCOS RELACIONAIS SO USAR PARA BANCOS RELACIONAIS.
+
+

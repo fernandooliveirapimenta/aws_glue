@@ -1,0 +1,8 @@
+Desenvolver ETL usando um notebook
+Endpoint em uma VPC controlado por grupo de segurancao conectado via:
+Apache zeppelin na maquina local.
+Zeppelin notebook server em um Ec2 (via glue console)
+SageMaker notebook
+Janela do Terminal
+Pycharm 
+

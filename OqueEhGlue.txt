@@ -16,4 +16,9 @@ S3 -> Glue crawler -> Redshift -> AWS QuickSight
 S3 -> Glue crawler-> Athena -> AWS QuickSight
 S3 -> Glue crawler-> AWS EMR (Elastic Map Reduce) -> AWS QuickSight
 
-
+Glue e Particoes do S3:
+O crawler glue ira extrais particoes baseados em como os dados estao organizados no S3.
+Deve pensar em como os dados serao buscados no data lake s3
+ex: dispositivos estao enviando dados toda hora
+vc vai buscar primeiro por range de datas? se sim bucket = data/dispositivo
+vc vai buscar primeiro por dispositivo? se sim bucket = dispositivo/data

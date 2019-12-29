@@ -1,0 +1,9 @@
+O que é HIVE(colmeia(hive(colmeia))): Executa no ambiente hadoop com sintaxe SQL, objetivo principal é analizar os dados que estao armazenados no HDFS/S3 do data lake.
+
+Glue(cola de colar algo):
+Glue ETL:
+geracao de codigo automatico
+scala ou python
+encriptacao
+pode ser event-drives
+erros no cloudwatch

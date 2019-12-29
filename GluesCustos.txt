@@ -1,0 +1,3 @@
+Cobrado por minuto por crawler e ETL jobs
+primeiro milhar de objetos armazenado sao gratis para o glue catalogo
+Endpoints de dev ETL sao cobrados por minuto
