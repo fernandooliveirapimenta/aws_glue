@@ -1,0 +1,19 @@
+Sem servidor descoberta e definicao de tabelas e esquemas:
+
+S3 "data lakes"
+RDS
+Redshift
+Varios outros Banco de dados SQL
+
+Customizaveis ETL jobs:
+gatilho, agendado ou por demanda.
+totalmente gerenciado.
+
+
+Glue crawler / Catalogo de dados
+
+S3 -> Glue crawler -> Redshift -> AWS QuickSight
+S3 -> Glue crawler-> Athena -> AWS QuickSight
+S3 -> Glue crawler-> AWS EMR (Elastic Map Reduce) -> AWS QuickSight
+
+
